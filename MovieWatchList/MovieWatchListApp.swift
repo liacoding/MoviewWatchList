@@ -2,7 +2,7 @@
 //  MovieWatchListApp.swift
 //  MovieWatchList
 //
-//  Created by Sergey Nazarov on 10/7/24.
+//  Created by Olga Nazarov on 10/7/24.
 //
 
 import SwiftUI

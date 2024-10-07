@@ -14,7 +14,7 @@
 			remoteGlobalIDString = C723ECEC2CB45FA9009E4B52;
 			remoteInfo = MovieWatchList;
 		};
-		C723ED082CB45FAB009E4B52 /* PBXContainerItemProxy */ = {
+		C723ED542CB4706F009E4B52 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C723ECE52CB45FA9009E4B52 /* Project object */;
 			proxyType = 1;
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		C723ECED2CB45FA9009E4B52 /* MovieWatchList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieWatchList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C723ECFD2CB45FAB009E4B52 /* MovieWatchListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieWatchListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C723ED072CB45FAB009E4B52 /* MovieWatchListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieWatchListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C723ED4E2CB4706F009E4B52 /* MovieWatchListUITesting.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieWatchListUITesting.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,9 +40,9 @@
 			path = MovieWatchListTests;
 			sourceTree = "<group>";
 		};
-		C723ED0A2CB45FAB009E4B52 /* MovieWatchListUITests */ = {
+		C723ED4F2CB4706F009E4B52 /* MovieWatchListUITesting */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MovieWatchListUITests;
+			path = MovieWatchListUITesting;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,7 +62,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C723ED042CB45FAB009E4B52 /* Frameworks */ = {
+		C723ED4B2CB4706F009E4B52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,7 +77,7 @@
 			children = (
 				C723ECEF2CB45FA9009E4B52 /* MovieWatchList */,
 				C723ED002CB45FAB009E4B52 /* MovieWatchListTests */,
-				C723ED0A2CB45FAB009E4B52 /* MovieWatchListUITests */,
+				C723ED4F2CB4706F009E4B52 /* MovieWatchListUITesting */,
 				C723ECEE2CB45FA9009E4B52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			children = (
 				C723ECED2CB45FA9009E4B52 /* MovieWatchList.app */,
 				C723ECFD2CB45FAB009E4B52 /* MovieWatchListTests.xctest */,
-				C723ED072CB45FAB009E4B52 /* MovieWatchListUITests.xctest */,
+				C723ED4E2CB4706F009E4B52 /* MovieWatchListUITesting.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,27 +140,27 @@
 			productReference = C723ECFD2CB45FAB009E4B52 /* MovieWatchListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C723ED062CB45FAB009E4B52 /* MovieWatchListUITests */ = {
+		C723ED4D2CB4706F009E4B52 /* MovieWatchListUITesting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C723ED172CB45FAB009E4B52 /* Build configuration list for PBXNativeTarget "MovieWatchListUITests" */;
+			buildConfigurationList = C723ED562CB4706F009E4B52 /* Build configuration list for PBXNativeTarget "MovieWatchListUITesting" */;
 			buildPhases = (
-				C723ED032CB45FAB009E4B52 /* Sources */,
-				C723ED042CB45FAB009E4B52 /* Frameworks */,
-				C723ED052CB45FAB009E4B52 /* Resources */,
+				C723ED4A2CB4706F009E4B52 /* Sources */,
+				C723ED4B2CB4706F009E4B52 /* Frameworks */,
+				C723ED4C2CB4706F009E4B52 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C723ED092CB45FAB009E4B52 /* PBXTargetDependency */,
+				C723ED552CB4706F009E4B52 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C723ED0A2CB45FAB009E4B52 /* MovieWatchListUITests */,
+				C723ED4F2CB4706F009E4B52 /* MovieWatchListUITesting */,
 			);
-			name = MovieWatchListUITests;
+			name = MovieWatchListUITesting;
 			packageProductDependencies = (
 			);
-			productName = MovieWatchListUITests;
-			productReference = C723ED072CB45FAB009E4B52 /* MovieWatchListUITests.xctest */;
+			productName = MovieWatchListUITesting;
+			productReference = C723ED4E2CB4706F009E4B52 /* MovieWatchListUITesting.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -180,7 +180,7 @@
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = C723ECEC2CB45FA9009E4B52;
 					};
-					C723ED062CB45FAB009E4B52 = {
+					C723ED4D2CB4706F009E4B52 = {
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = C723ECEC2CB45FA9009E4B52;
 					};
@@ -202,7 +202,7 @@
 			targets = (
 				C723ECEC2CB45FA9009E4B52 /* MovieWatchList */,
 				C723ECFC2CB45FAB009E4B52 /* MovieWatchListTests */,
-				C723ED062CB45FAB009E4B52 /* MovieWatchListUITests */,
+				C723ED4D2CB4706F009E4B52 /* MovieWatchListUITesting */,
 			);
 		};
 /* End PBXProject section */
@@ -222,7 +222,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C723ED052CB45FAB009E4B52 /* Resources */ = {
+		C723ED4C2CB4706F009E4B52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,7 +246,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C723ED032CB45FAB009E4B52 /* Sources */ = {
+		C723ED4A2CB4706F009E4B52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,10 +261,10 @@
 			target = C723ECEC2CB45FA9009E4B52 /* MovieWatchList */;
 			targetProxy = C723ECFE2CB45FAB009E4B52 /* PBXContainerItemProxy */;
 		};
-		C723ED092CB45FAB009E4B52 /* PBXTargetDependency */ = {
+		C723ED552CB4706F009E4B52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C723ECEC2CB45FA9009E4B52 /* MovieWatchList */;
-			targetProxy = C723ED082CB45FAB009E4B52 /* PBXContainerItemProxy */;
+			targetProxy = C723ED542CB4706F009E4B52 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -480,14 +480,14 @@
 			};
 			name = Release;
 		};
-		C723ED182CB45FAB009E4B52 /* Debug */ = {
+		C723ED572CB4706F009E4B52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.application.MovieWatchListUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.application.MovieWatchListUITesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -496,14 +496,14 @@
 			};
 			name = Debug;
 		};
-		C723ED192CB45FAB009E4B52 /* Release */ = {
+		C723ED582CB4706F009E4B52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.application.MovieWatchListUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.application.MovieWatchListUITesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -542,11 +542,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C723ED172CB45FAB009E4B52 /* Build configuration list for PBXNativeTarget "MovieWatchListUITests" */ = {
+		C723ED562CB4706F009E4B52 /* Build configuration list for PBXNativeTarget "MovieWatchListUITesting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C723ED182CB45FAB009E4B52 /* Debug */,
-				C723ED192CB45FAB009E4B52 /* Release */,
+				C723ED572CB4706F009E4B52 /* Debug */,
+				C723ED582CB4706F009E4B52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
